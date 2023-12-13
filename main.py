@@ -68,5 +68,5 @@ def _recognize_face(unknown_encoding, loaded_encodings):
         return votes.most_common(1)[0][0]
 
 
-encode_known_faces()
-# recognize_faces("unknown.png")
+# encode_known_faces()
+recognize_faces("unknown.png")
